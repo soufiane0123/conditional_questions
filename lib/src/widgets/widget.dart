@@ -153,6 +153,7 @@ class QuestionFormState extends State<QuestionForm> {
                   child: /* Text(data.keys.toList()[0].question)*/
                       RichText(
                     text: TextSpan(
+                        style: Theme.of(context).textTheme.bodySmall,
                         text: data.keys.toList()[0].question,
                         children: (!((data.keys.toList()[0])
                                             is NestedQuestion ||
@@ -180,6 +181,7 @@ class QuestionFormState extends State<QuestionForm> {
                         borderRadius: BorderRadius.all(Radius.circular(10)),
                       ),
                       child: Container(
+                        color: Colors.white,
                         child: Padding(
                           padding: EdgeInsets.fromLTRB(0, 0, 25, 8),
                           child: !((data.keys.toList()[0]) is NestedQuestion ||
