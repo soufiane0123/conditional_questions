@@ -144,6 +144,7 @@ class QuestionFormState extends State<QuestionForm> {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Card(
+          elevation: 3,
           child: Column(
             children: [
               Align(
