@@ -153,7 +153,7 @@ class QuestionFormState extends State<QuestionForm> {
                   child: /* Text(data.keys.toList()[0].question)*/
                       RichText(
                     text: TextSpan(
-                        style: Theme.of(context).textTheme.bodySmall,
+                        style: Theme.of(context).textTheme.bodyMedium,
                         text: data.keys.toList()[0].question,
                         children: (!((data.keys.toList()[0])
                                             is NestedQuestion ||
